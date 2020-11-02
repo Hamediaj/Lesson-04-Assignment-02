@@ -1,18 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none; /*gets rid of the underline under the text*/
+}
+
 header {
     background: #008FAC;
 }
 
 .title {
-    padding: 1rem 7.5rem;
+    padding: 1rem 8rem;
     color: white;
 }
 
 nav.topnav {
     background: #e8e8e8;
     padding: 1rem 8rem;
-    margin-left: -3rem
 }
 
 .navlist {
@@ -32,8 +37,9 @@ main {
 .left-side {
     display:block;
     width: 45%;
-    margin-left: 7.5rem;
+    margin-left: 8rem;
     margin-right:2rem;
+    padding-top: 1rem;
 }
 
 h3, blockquote {
@@ -42,6 +48,7 @@ h3, blockquote {
 
 h1, h2, h3, h4, h5, small, figure {
 font-family: Helvetica Neue;
+padding-top: 1rem;
 }
 
 blockquote {
@@ -52,6 +59,8 @@ blockquote {
 p {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .highlighted-text {
@@ -67,6 +76,7 @@ article {
     width: 30%;
     margin-right: 5rem;
     margin-left: 1rem;
+    padding-top: 1rem;
 }
 
 figure {
