@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+header {
+    background: #008FAC;
+}
+
+.title {
+    padding: 1rem 7.5rem;
+    color: white;
+}
+
+nav.topnav {
+    background: #e8e8e8;
+    padding: 1rem 8rem;
+    margin-left: -3rem
+}
+
+.navlist {
+    list-style: none;
+    display: inline-block;
+    font-family: Helvetica Neue;
+}
+
+.seperator {
+    margin: 0 1rem;
+}
+
+main {
+    display:flex
+}
+
+.left-side {
+    display:block;
+    width: 45%;
+    margin-left: 7.5rem;
+    margin-right:2rem;
+}
+
+h3, blockquote {
+  color: #008FAC;
+}
+
+h1, h2, h3, h4, h5, small, figure {
+font-family: Helvetica Neue;
+}
+
+blockquote {
+  padding-top: 2rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.highlighted-text {
+  color: #008FAC;
+}
+
+article {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.right-side{
+    display: block;
+    width: 30%;
+    margin-right: 5rem;
+    margin-left: 1rem;
+}
+
+figure {
+  margin: auto;
+  padding-bottom: 1rem;
+}
+
+figcaption {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+footer {
+    background:#4d4d4d;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
