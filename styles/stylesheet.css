@@ -27,9 +27,25 @@ nav.topnav {
     color: black;
 }
 
+.topnav .navlist a {
+  color: black;
+}
+
+
 .seperator {
     margin: 0 1rem;
 }
+
+/* @media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+  main {
+    height: 2000px;
+    background: pink;
+  }
+} */
 
 main {
     display:flex
@@ -81,6 +97,10 @@ article {
     padding-top: 1rem;
 }
 
+aside a {
+  color: #008FAC
+}
+
 figure {
   margin: auto;
   padding-bottom: 1rem;
@@ -103,4 +123,12 @@ footer {
 
 aside {
   font-family: 'Open Sans', sans-serif;
+}
+
+.bottomnav .navlist a {
+  color: white;
+}
+
+.bottomp {
+  align-items: center;
 }
