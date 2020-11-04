@@ -24,6 +24,7 @@ nav.topnav {
     list-style: none;
     display: inline-block;
     font-family: Helvetica Neue;
+    color: black;
 }
 
 .seperator {
@@ -71,6 +72,7 @@ article {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+
 .right-side{
     display: block;
     width: 30%;
@@ -96,4 +98,9 @@ footer {
     align-items:center;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    color: white;
+}
+
+aside {
+  font-family: 'Open Sans', sans-serif;
 }
